@@ -7,7 +7,7 @@ Built using Bosonic Qiskit (https://github.com/C2QA/bosonic-qiskit) and QuTip
 Use a Python virtual environment to install compatible version of QisKit.
 
 ```bash
-git clone https://github.com/shubdeepmohapatra01/CV-DV-Benchmarking-.git
+git clone https://github.com/shubdeepmohapatra01/CV-DV-Benchmarks.git
 ./install-dependencies.sh
 ```
 
