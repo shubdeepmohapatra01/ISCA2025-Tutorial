@@ -17,4 +17,4 @@ If using vscode , use venv and select requirements.txt to install the dependenci
 Implements the custom gates and hellper functions for the benchmarks
 
 ## Bosonic Qiskit Tutorial
-Uses Some inbuilt bosonic iqksit gates and some custom gates for the benchmarks.
+Uses some inbuilt bosonic qiksit gates and some custom gates for the benchmarks.
