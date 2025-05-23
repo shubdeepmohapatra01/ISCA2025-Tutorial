@@ -27,7 +27,7 @@ def qproj10():
 
 def CD_real(cutoff,alpha):
     p = momentum(cutoff)
-    cdReal = tensor(sigmax(),-1j*np.sqrt(2)*alpha*p).expm()
+    cdReal = tensor(sigmax(),1j*np.sqrt(2)*alpha*p).expm()
     return cdReal
 
 def CD_imaginary(cutoff,alpha):
@@ -36,9 +36,9 @@ def CD_imaginary(cutoff,alpha):
     return cdImaginary
 
 def Ux_operator(cutoff,theta,alpha,delta):
-    CD_real = tensor(sigmax(),1j*(theta/alpha)*position(cutoff)).expm()
-    CD_imag = tensor(sigmay(),1j*(2*theta/alpha)*(delta**2)*momentum(cutoff)).expm()
-    return CD_real * CD_imag
+    CD_imag = tensor(sigmax(),1j*(theta/alpha)*position(cutoff)).expm()
+    CD_real = tensor(sigmay(),1j*(2*theta/alpha)*(delta**2)*momentum(cutoff)).expm()
+    return CD_real,CD_imag
 
 def conditional_displacement(cutoff,alpha):
     D_plus = displace(cutoff, alpha)

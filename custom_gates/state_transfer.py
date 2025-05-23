@@ -13,7 +13,6 @@ def Wj(lmbda,j,n,cutoff):
         disp_amount = -lmbda*2**(j-1)
     else:
         disp_amount = lmbda*2**(j-1)
-    # print(qubit_pauli)
     return tensor(qubit_pauli, disp_amount*(destroy(cutoff) - create(cutoff))/np.sqrt(2.0)).expm()
 
 def dv2cv_st_non_abelian(lmbda,n,cutoff):
