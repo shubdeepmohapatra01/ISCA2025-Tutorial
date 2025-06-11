@@ -13,8 +13,6 @@ git clone https://github.com/shubdeepmohapatra01/CV-DV-Benchmarks.git
 
 If using vscode , use venv and select requirements.txt to install the dependencies
 
-## Custom Gates
-Implements the custom gates and hellper functions for the benchmarks
 
 ## Bosonic Qiskit Tutorial
-Uses some inbuilt bosonic qiksit gates and some custom gates for the benchmarks.
+Uses some inbuilt bosonic qiksit gates for cat state and gkp state generation.
