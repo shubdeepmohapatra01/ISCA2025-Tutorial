@@ -1,4 +1,4 @@
-# CV-DV-Benchmarks
+# CV-DV-Programs
 
 Built using Bosonic Qiskit (https://github.com/C2QA/bosonic-qiskit) and QuTip
 
